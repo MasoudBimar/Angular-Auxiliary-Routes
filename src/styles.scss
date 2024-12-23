@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Courier New';
+    font-style: normal;
+}
+
+.background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header {
+    height: 53px;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    div {
+        width: 100%;
+        text-align: right;
+        padding: 0 20%;
+        button,a {
+            outline: none;
+            text-decoration: none;
+            border: none;
+            padding: 10px;
+            border-radius: 40px;
+            background: #e72d39;
+            color: #fff;
+            cursor: pointer;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+}
