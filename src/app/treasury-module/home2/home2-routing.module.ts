@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { Home2Component } from './home2.component';
 import { List2Component } from './list2/list2.component';
-import { DashboardComponent } from '../dashboard.component';
 
 const routes: Routes = [
   {
@@ -15,7 +14,7 @@ const routes: Routes = [
     component: Home2Component,
   },
   {
-    path: 'list',
+    path: 'list2',
     component: List2Component,
   },
 ];

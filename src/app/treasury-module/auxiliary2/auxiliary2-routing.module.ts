@@ -8,11 +8,16 @@ import { ActivityComponent } from './pages/activity/activity.component';
 const routes: Routes = [
   {
     path: '',
-    // outlet: 'modal',
-    component: Auxiliary2Component,
+    redirectTo:'profile',
+    pathMatch: 'full'
+  },
+  {
+    path: '',
+    outlet: 'modal',
+    // component: Auxiliary2Component,
     children: [
       {
-        path: 'home',
+        path: 'profile',
         component: EditProfileComponent,
       },
       {

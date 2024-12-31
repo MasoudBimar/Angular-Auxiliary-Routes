@@ -16,6 +16,6 @@ export class Home2Component {
   }
 
   changeRoute() {
-    this._router.navigate(['', { outlets: { modal: 'treasury/modals/home' }, }], { skipLocationChange: skipUrlChange });
+    this._router.navigate([ { outlets: { modal: 'treasury/modals/profile' }, }], { skipLocationChange: skipUrlChange });
   }
 }
